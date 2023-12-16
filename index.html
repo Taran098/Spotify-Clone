@@ -1,296 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Spotify - Web Player: Music for everyone</title>
-    <link rel="icon" href="./Images/logo (1).png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Spotify - Web Player: Music for everyone</title>
+  <link rel="icon" href="./Images/logo (1).png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
 
 
 </head>
-    <div class="main">
-      <!---side bar-->
-        <div class="sidebar">
-            <div class="nav">
-               <div class="nav-option" style="opacity: 1;">
-                <i class="fa-solid fa-house"></i>
-                <a href="#">Home</a>
-               </div>
-               <div class="nav-option">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <a href="#">Search</a>
-               </div>
-            </div>
+<div class="main">
+  <!---side bar-->
+  <div class="sidebar">
+    <div class="nav">
+      <div class="nav-option" style="opacity: 1;">
+        <i class="fa-solid fa-house"></i>
+        <a href="#">Home</a>
+      </div>
+      <div class="nav-option">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="#">Search</a>
+      </div>
+    </div>
 
-            <div class="library">
+    <div class="library">
 
-            <div class="options">
+      <div class="options">
 
-                <div class="lib-option nav-option">
-                <!-- <img src="./Images/library_icon.png" alt=""> -->
-                <img src="./Images/library_icon.png" alt="">
-                <a href="#">Your Library</a> </div>
+        <div class="lib-option nav-option">
+          <!-- <img src="./Images/library_icon.png" alt=""> -->
+          <img src="./Images/library_icon.png" alt="">
+          <a href="#">Your Library</a>
+        </div>
 
-                <div class="icons">
-                    <i class="fa-solid fa-plus"></i>
-                    <i class="fa-solid fa-arrow-right"></i>
-                </div>
+        <div class="icons">
+          <i class="fa-solid fa-plus"></i>
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
 
-            </div>
-
-          
-
-            <div class="song-options">
-                <div class="type">Playlists</div>
-                <div class="type">Artists</div>
-                <div class="type">Albums</div>
-                <div class="type">Podcasts & Shows</div>  </div>
-
-
-                <div class="song-list">
-
-                  <div class="find-box">
-                    <div class="search"><i class="fa fa-search"></i></div>
-
-                    <div class="recents"> 
-                        <a href="#" class="recent">Recents</a>
-                        <i class="fa fa-list"></i>
-                    </div>
-                   
-
-                  </div>
-
-
-                  <div class="songs">
-
-                    <!---Liked songs-->
-<div class="song">
-  <img src="./Images/LikedSongs.jpeg" alt="Liked Songs" style="border-radius: 15%;">
-  <div class="text">
-    <span class="playlist">My Playlist</span>
-    <div class="playlist-description"> <div> <i class="fa-solid fa-thumbtack  " ></i> <span>Playlist </span></div> <div class="type-playlist"> <li> 45 Songs</li> </div></div>
-    
-  </div>
-</div>
-
-
-                
-<div class="song">
-  <img src="./Images/Sidhu_moosewala.jpeg" alt="Image Description">
-  <div class="text">
-    <span class="singer">Sidhu Moose Wala</span>
-    <span class="artist">Artist</span>
-  </div>
-</div>
-
-
-<div class="song">
-  <img src="./Images/Drake.webp" alt="Image Description">
-  <div class="text">
-    <span class="singer">Drake</span>
-    <span class="artist">Artist</span>
-  </div>
-</div>
-
-<div class="song">
-  <img src="./Images/taylor.jpeg" alt="Taylor Swift Image">
-  <div class="text">
-    <span class="singer">Taylor Swift</span>
-    <span class="artist">Artist</span>
-  </div>
-</div>
-
-<!---playlist -->
-<div class="song">
-  <img src="./Images/Playlist.jpeg" alt="Top 50 Playlist">
-  <div class="text">
-    <span class="playlist">My Playlist</span>
-    <div class="playlist-description"> <div>  <span>Playlist </span></div> <div class="type-playlist"> <li> Top 50 HollywoodSongs</li> </div></div>
-    
-  </div>
-</div>
+      </div>
 
 
 
-                  </div> 
+      <div class="song-options">
+        <div class="type">Playlists</div>
+        <div class="type">Artists</div>
+        <div class="type">Albums</div>
+        <div class="type">Podcasts & Shows</div>
+      </div>
 
-                    
-                  </div>
 
-                
-                </div>
-        
+      <div class="song-list">
 
-            </div>
-            
+        <div class="find-box">
+          <div class="search"><i class="fa fa-search"></i></div>
 
-            
-        <div class="main-content">
-
-          <div class="sticky-nav">
-            <div class="sticky-nav-icons">
-            <img src="./Images/backward_icon.png" alt="">
-            <img src="./Images/forward_icon.png" alt="" class="hide"> </div>
-            <div class="sticky-nav-options">
-            <button class="badge nav-item hide" >Explore Premium</button>
-            <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 6px;"></i>Install App</button>
-
-       
-           <i class="fa-regular fa-bell nav-item"></i>  
-          <i class="fa-regular fa-user nav-item"></i> 
-           </div>
+          <div class="recents">
+            <a href="#" class="recent">Recents</a>
+            <i class="fa fa-list"></i>
           </div>
-<div class="cards">
-
- <div class="time-greeting"><h2>Good evening</h2></div>
-
-  <div class="singers">
-
-  <div class="singerPlaylist">
-
-    <img src="./Images/ArjanDhillon.jpeg" alt="Arjan Dhillon Image">
-    <div class="singerinfo">Arjan Dhillon</div> 
-    <div class="playlistbutton"><img src="./Images/PlaylistButton.png" alt="" style="border-radius: 50%;"></div>
-  
-  </div>
-
-  <div class="singerPlaylist">fsf</div>
-  <div class="singerPlaylist">dsfd</div>
-  <div class="singerPlaylist">fsf</div>
-  <div class="singerPlaylist">fsfs</div>
-  <div class="singerPlaylist">fsf</div>
-  </div>
-  <!---will work on above only singers adjustment left-->
-
-  <!---Add one div for festival spotify-->
-
-<div class="Shows">
-  <h2>Your Shows</h2>
-<div class="shows-container">
-<div class="card">
-  <img src="./Images/cokeStudio.jpeg.crdownload" alt="Satinder Sartaj Image" class="card-image">
-  <p class="card-title">Coke Studio</p>
-  <p class="card-info">2023 &#8226; Various Artist</p>
-</div>
-
-<div class="card">
-  <img src="./Images/jay-shetty.jpeg" alt="Satinder Sartaj Image" class="card-image">
-  <p class="card-title">On Purpose</p>
-  <p class="card-info">iHeartPodcasts</p>
-</div>
-
-<div class="card">
-  <img src="./Images/Drake-show.jpeg" alt="Satinder Sartaj Image" class="card-image">
-  <p class="card-title">Udaarian-2.0</p>
-  <p class="card-info">Satinder Sartaj</p>
-</div>
-
-<div class="card">
-  <img src="./Images/hubhopper.jpeg" alt="Satinder Sartaj Image" class="card-image">
-  <p class="card-title">Udaarian-2.0</p>
-  <p class="card-info">Satinder Sartaj</p>
-</div>
-
-<div class="card">
-  <img src="./Images/DiljitAlbum.jpeg" alt="Satinder Sartaj Image" class="card-image">
-  <p class="card-title">Udaarian-2.0</p>
-  <p class="card-info">Satinder Sartaj</p>
-</div>
-
-<div class="card">
-  <img src="./Images/studio.jpeg" alt="Satinder Sartaj Image" class="card-image">
-  <p class="card-title">Udaarian-2.0</p>
-  <p class="card-info">Satinder Sartaj</p>
-</div>
-
-</div>
-
-<h2>Recently Played</h2>
-<div class="shows-container">
-  <div class="card">
-    <img src="./Images/Sidhu_moosewala.jpeg" alt="Satinder Sartaj Image" class="card-image">
-    <p class="card-title">Coke Studio</p>
-    <p class="card-info">2023 &#8226; Various Artist</p>
-  </div>
-  
-  <div class="card">
-    <img src="./Images/Drake.jpeg" alt="Satinder Sartaj Image" class="card-image">
-    <p class="card-title">On Purpose</p>
-    <p class="card-info">iHeartPodcasts</p>
-  </div>
-  
-  <div class="card">
-    <img src="./Images/taylor.jpeg" alt="Satinder Sartaj Image" class="card-image">
-    <p class="card-title">Udaarian-2.0</p>
-    <p class="card-info">Satinder Sartaj</p>
-  </div>
-  
-  <div class="card">
-    <img src="./Images/Hustinder.jpeg" alt="Satinder Sartaj Image" class="card-image">
-    <p class="card-title">Udaarian-2.0</p>
-    <p class="card-info">Satinder Sartaj</p>
-  </div>
-  
-  <div class="card">
-    <img src="./Images/DiljitAlbum.jpeg" alt="Satinder Sartaj Image" class="card-image">
-    <p class="card-title">Udaarian-2.0</p>
-    <p class="card-info">Satinder Sartaj</p>
-  </div>
-  
-  <div class="card">
-    <img src="./Images/studio.jpeg" alt="Satinder Sartaj Image" class="card-image">
-    <p class="card-title">Udaarian-2.0</p>
-    <p class="card-info">Satinder Sartaj</p>
-  </div>
-  
-  </div>
-  
-</div>
 
 
-
-
-
-
-</div>
-
-
-
-    
-
-       
-       
-        
-
-
-    </div>  
-    <!---main div close-->
-
-    <!---footer start-->
-      <div class="music-player">
-
-        
-
-        <div class="current-playing  song">
-          <img src="./Images/ArjanDhillon.jpeg" alt="Arjan Dhillon Image">
-          <div class="text">
-            <span class="singer">Arjan Dhillon</span>
-            <span class="artist">playlist</span>
-          </div>
-          <div class="like">
-            <i class="fa fa-heart"></i>
-          </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptatem exercitationem soluta officia? Mollitia maxime cupiditate provident, repellendus ipsa ipsum doloremque architecto. Quidem similique quod veritatis repellat exercitationem voluptatum, modi vitae reiciendis sit nobis assumenda repellendus odio veniam dignissimos excepturi?</p>
-    
         </div>
 
 
-     
+        <div class="songs">
+
+          <!---Liked songs-->
+          <div class="song">
+            <img src="./Images/LikedSongs.jpeg" alt="Liked Songs" style="border-radius: 15%;">
+            <div class="text">
+              <span class="playlist">My Playlist</span>
+              <div class="playlist-description">
+                <div> <i class="fa-solid fa-thumbtack  "></i> <span>Playlist </span></div>
+                <div class="type-playlist">
+                  <li> 45 Songs</li>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <div class="song">
+            <img src="./Images/Sidhu_moosewala.jpeg" alt="Image Description">
+            <div class="text">
+              <span class="singer">Sidhu Moose Wala</span>
+              <span class="artist">Artist</span>
+            </div>
+          </div>
+
+
+          <div class="song">
+            <img src="./Images/Drake.webp" alt="Image Description">
+            <div class="text">
+              <span class="singer">Drake</span>
+              <span class="artist">Artist</span>
+            </div>
+          </div>
+
+          <div class="song">
+            <img src="./Images/taylor.jpeg" alt="Taylor Swift Image">
+            <div class="text">
+              <span class="singer">Taylor Swift</span>
+              <span class="artist">Artist</span>
+            </div>
+          </div>
+
+          <!---playlist -->
+          <div class="song">
+            <img src="./Images/Playlist.jpeg" alt="Top 50 Playlist">
+            <div class="text">
+              <span class="playlist">My Playlist</span>
+              <div class="playlist-description">
+                <div> <span>Playlist </span></div>
+                <div class="type-playlist">
+                  <li> Top 50 HollywoodSongs</li>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+
+
     </div>
-</body>
+
+
+  </div>
+
+
+
+  <div class="main-content">
+
+    <div class="sticky-nav">
+      <div class="sticky-nav-icons">
+        <img src="./Images/backward_icon.png" alt="">
+        <img src="./Images/forward_icon.png" alt="" class="hide">
+      </div>
+      <div class="sticky-nav-options">
+        <button class="badge nav-item hide">Explore Premium</button>
+        <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"
+            style="margin-right: 6px;"></i>Install App</button>
+
+
+        <i class="fa-regular fa-bell nav-item"></i>
+        <i class="fa-regular fa-user nav-item"></i>
+      </div>
+    </div>
+    <div class="cards">
+
+      <div class="time-greeting">
+        <h2>Good evening</h2>
+      </div>
+
+      <div class="singers">
+
+        <div class="singerPlaylist">
+          <div>
+            <img src="./Images/ArjanDhillon.jpeg" alt="Arjan Dhillon Image" class="singerImage">
+            <p class="singerText">Arjan Dhillon</p>
+          </div>
+          <div><img src="./Images/PlaylistButton.png" alt="playlist-button" class="playButton"></div>
+
+        </div>
+
+        <div class="singerPlaylist">
+          <div>
+            <img src="./Images/Sidhu_moosewala.jpeg" alt="Sidhu image" class="singerImage">
+            <p class="singerText">Sidhu Moose Wala</p>
+          </div>
+          <div><img src="./Images/PlaylistButton.png" alt="playlist-button" class="playButton"></div>
+
+        </div>
+
+        <div class="singerPlaylist">
+          <div>
+            <img src="./Images/Drake.jpeg" alt="Drake image" class="singerImage">
+            <p class="singerText">Drake</p>
+          </div>
+          <div><img src="./Images/PlaylistButton.png" alt="playlist-button" class="playButton"></div>
+
+        </div>
+
+        <div class="singerPlaylist">
+          <div>
+            <img src="./Images/SatinderSartaj.jpeg" alt="Satinder Sartaj image" class="singerImage">
+            <p class="singerText">Satinder Sartaj</p>
+          </div>
+          <div><img src="./Images/PlaylistButton.png" alt="playlist-button" class="playButton"></div>
+
+        </div>
+
+        <div class="singerPlaylist">
+          <div>
+            <img src="./Images/eminem-best.jpeg" alt="eminem image" class="singerImage">
+            <p class="singerText">Eminem</p>
+          </div>
+          <div><img src="./Images/PlaylistButton.png" alt="playlist-button" class="playButton"></div>
+
+        </div>
+
+        <div class="singerPlaylist">
+          <div>
+            <img src="./Images/DojeCat.jpeg" alt="Amala image" class="singerImage">
+            <p class="singerText">Amala</p>
+          </div>
+          <div><img src="./Images/PlaylistButton.png" alt="playlist-button" class="playButton"></div>
+
+        </div>
+
+      </div>
+      <!---will work on above only singers adjustment left-->
+
+      <!---Add one div for festival spotify-->
+
+      <div class="Shows">
+        <h2>Your Shows</h2>
+        <div class="shows-container">
+          <div class="card">
+            <img src="./Images/cokeStudio.jpeg.crdownload" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Coke Studio</p>
+            <p class="card-info">2023 &#8226; Various Artist</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/jay-shetty.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">On Purpose</p>
+            <p class="card-info">iHeartPodcasts</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/Drake-show.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/hubhopper.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/DiljitAlbum.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/studio.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+        </div>
+
+        <!---Recently Played -->
+
+        <h2>Recently Played</h2>
+        <div class="shows-container">
+          <div class="card">
+            <img src="./Images/Sidhu_moosewala.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Coke Studio</p>
+            <p class="card-info">2023 &#8226; Various Artist</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/Drake.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">On Purpose</p>
+            <p class="card-info">iHeartPodcasts</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/taylor.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/Hustinder.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/DiljitAlbum.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/studio.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+        </div>
+        <!---Your Favorite Artists--->
+        <h2>Your favorite artists</h2>
+
+        <div class="shows-container">
+          <div class="card">
+            <img src="./Images/eminem-best.jpeg" alt="Satinder Sartaj Image" class="card-image circle">
+            <p class="card-title">Coke Studio</p>
+            <p class="card-info">2023 &#8226; Various Artist</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/karan.jpeg" alt="Satinder Sartaj Image" class="card-image circle">
+            <p class="card-title">On Purpose</p>
+            <p class="card-info">iHeartPodcasts</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/justin.jpeg" alt="Satinder Sartaj Image" class="card-image circle">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/himmat.jpeg" alt="Satinder Sartaj Image" class="card-image circle">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/nusrat.jpeg" alt="Satinder Sartaj Image" class="card-image circle">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/Hustinder.jpeg" alt="Satinder Sartaj Image" class="card-image circle">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+        </div>
+        <!-----Made for Tarans---->
+        <h2>Made for Tarans</h2>
+
+        <div class="shows-container">
+          <div class="card">
+            <img src="./Images/discoverWeekly.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Coke Studio</p>
+            <p class="card-info">2023 &#8226; Various Artist</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/dailymix-2.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">On Purpose</p>
+            <p class="card-info">iHeartPodcasts</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/dailymix-3.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/dailymix-4.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/dailymix-5.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+          <div class="card">
+            <img src="./Images/Hustinder.jpeg" alt="Satinder Sartaj Image" class="card-image">
+            <p class="card-title">Udaarian-2.0</p>
+            <p class="card-info">Satinder Sartaj</p>
+          </div>
+
+        </div>
+        <!---end ----->
+
+        <!---main part footer start-->
+
+        <div class="main-footer">
+          <!---items-->
+          <div class="footer-content">
+
+            <div class="company">
+
+            </div>
+
+            <div class="communities">
+
+            </div>
+
+            <div class="useful-links">
+
+
+            </div>
+
+          </div>
+
+          <!---social div-->
+          <div class="social-icons"> fs</div>
+          fsjlkfskjdfklsdjklfdls
+          <img src="./Images/ArjanDhillon.jpeg" alt="">
+        </div>
+
+
+      </div>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </div>
+  <!---main div close----->
+
+  <!---footer start-->
+  <div class="music-player">
+
+
+
+    <div class="current-playing  song">
+      <img src="./Images/ArjanDhillon.jpeg" alt="Arjan Dhillon Image">
+      <div class="text">
+        <span class="singer">Arjan Dhillon</span>
+        <span class="artist">playlist</span>
+      </div>
+      <div class="like">
+        <i class="fa fa-heart"></i>
+      </div>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, inventore soluta. Laborum quo temporibus
+        accusantium corrupti reiciendis ipsam voluptate adipisci?</p>
+    </div>
+
+
+
+  </div>
+  </body>
+
 </html>
