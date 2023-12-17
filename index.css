@@ -5,7 +5,6 @@ body {
   color: white;
   overflow: hidden;
 }
-/* done */
 
 .main {
   display: flex;
@@ -20,7 +19,6 @@ body {
 }
 .main-content {
   background-color: rgba(23, 23, 23, 255);
-
   background-attachment: fixed;
   z-index: 0;
   flex: 1;
@@ -381,4 +379,22 @@ h6 {
 }
 .main-footer {
   margin: 5% 2% 12% 2%;
+}
+
+/* Experiment */
+.shows-container .card {
+  position: relative;
+}
+
+.shows-container .card .playButton {
+  position: absolute;
+  bottom: 115px;
+  right: 30px;
+  border-radius: 50%;
+  width: 50px;
+  opacity: 0;
+}
+
+.shows-container .card:hover .playButton {
+  opacity: 1;
 }
