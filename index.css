@@ -636,3 +636,41 @@ h2 {
   border: 1px solid #ffffff;
   padding: 2px; /* Adjust padding as needed */
 }
+.icon-bell {
+  background-color: #161616;
+  width: 25px;
+  height: 25px;
+  padding: 15px;
+  margin-top: 8px;
+  margin-left: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 18px;
+}
+.icon-bell:hover .fa-bell {
+  color: white;
+  transform: scale(1.15);
+}
+
+.icon-user-login {
+  color: white;
+  font-size: 18px;
+  background-color: #161616;
+  width: 25px;
+  height: 25px;
+  padding: 15px;
+  margin-top: 8px;
+  margin-left: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.icon-user-login:hover {
+  transform: scale(1.08);
+}
