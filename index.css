@@ -235,7 +235,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0px;
+  padding: 3px 0px;
   z-index: 1;
   background-color: black;
 }
@@ -256,6 +256,49 @@ body {
   margin: 0.8rem 0rem 0rem 1rem;
 }
 .sticky-nav-options .nav-item:hover {
+  transform: scale(1.08);
+}
+/* will update it  to one combine */
+
+.icon-bell {
+  background-color: #161616;
+  width: 25px;
+  height: 25px;
+  padding: 15px;
+  margin-top: 8px;
+  margin-left: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-size: 18px;
+}
+.fa-bell {
+  color: #b1b1b1;
+}
+.icon-bell:hover .fa-bell {
+  color: white;
+  transform: scale(1.15);
+}
+
+.icon-user-login {
+  color: white;
+  font-size: 18px;
+  background-color: #161616;
+  width: 25px;
+  height: 25px;
+  padding: 15px;
+  margin-top: 8px;
+  margin-left: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.icon-user-login:hover {
   transform: scale(1.08);
 }
 @media (max-width: 1000px) {
@@ -287,33 +330,29 @@ body {
   justify-content: space-between;
   flex-basis: calc(32% - 10px);
   margin: 5px 5px;
-  height: 3.9em;
+  height: 65px;
   background-color: #444549;
   border-radius: 5px;
   padding-right: 1%;
+}
+.singerImage {
+  height: 100%;
+  width: 3.5rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-right: 10px;
+}
+.singers .singerPlaylist .singerImages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* just singer name align center left*/
 .singerText {
   display: flex;
-  margin-top: 13%;
-  margin-left: 65px;
   font-weight: 500;
-}
-
-@media (max-width: 1210px) {
-  .cards .singers .singerPlaylist {
-    flex-basis: calc(50% - 10px);
-    height: 3.4rem;
-  }
-}
-
-.singers .singerPlaylist .singerImage {
-  float: left;
-  height: 100%;
-  width: 3.5rem;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+  font-size: 16px;
 }
 
 .singers .singerPlaylist .playButton {
@@ -463,13 +502,6 @@ h2 {
   color: white;
 }
 
-/* card heading margins*/
-/* h2 {
-  margin-left: 0.9rem;
-  margin-bottom: 1rem;
-  font-size: 24px;
-} */
-
 .line {
   margin-left: 2%;
   margin-right: 2%;
@@ -576,10 +608,6 @@ h2 {
   padding-left: 24px;
   padding-right: 24px;
 }
-
-.music-controls {
-  margin-left: 36%;
-}
 .music-time {
   width: 600px;
   height: 4px;
@@ -636,46 +664,43 @@ h2 {
   padding: 2px; /* Adjust padding as needed */
 }
 
-/* will update it  to one combine */
-
-.icon-bell {
-  background-color: #161616;
-  width: 25px;
-  height: 25px;
-  padding: 15px;
-  margin-top: 8px;
-  margin-left: 12px;
-  border-radius: 50%;
+.music-controls {
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  border: none;
-  font-size: 18px;
+  width: 20%;
+  margin-left: 32%;
+  padding: 8px 10px;
 }
-.fa-bell {
-  color: #b1b1b1;
-}
-.icon-bell:hover .fa-bell {
-  color: white;
-  transform: scale(1.15);
+.music-controls img {
+  width: 15px;
+  height: 15px;
 }
 
-.icon-user-login {
-  color: white;
-  font-size: 18px;
-  background-color: #161616;
-  width: 25px;
-  height: 25px;
-  padding: 15px;
-  margin-top: 8px;
-  margin-left: 12px;
-  border-radius: 50%;
+.music-start img {
+  width: 35px;
+  height: 35px;
+}
+.player-shuffle i {
+  color: #1db954;
+}
+
+.headings {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+.headings button {
+  background-color: #161616;
+
+  margin-right: 20px;
   border: none;
 }
-
-.icon-user-login:hover {
-  transform: scale(1.08);
+.headings button a {
+  text-decoration: none;
+  color: #a7a5a5;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.headings button a:hover {
+  text-decoration: underline;
 }
