@@ -232,13 +232,12 @@ body {
 .sticky-nav {
   position: sticky;
   top: 0;
-  background-color: 444549;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 5px 0px;
   z-index: 1;
-  background-color: #242424;
+  background-color: black;
 }
 .sticky-nav-icons {
   margin-left: 0.75rem;
