@@ -329,9 +329,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-basis: calc(32% - 10px);
-  margin: 5px 5px;
+  margin: 6px 6px;
   height: 65px;
-  background-color: #444549;
+  background-color: #232323ce;
   border-radius: 5px;
   padding-right: 1%;
 }
@@ -363,7 +363,7 @@ body {
 }
 
 .singers .singerPlaylist:hover {
-  background-color: #4b4b4b;
+  background-color: #323232;
 }
 .singers .singerPlaylist:hover .playButton {
   opacity: 1;
