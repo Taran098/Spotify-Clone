@@ -8,13 +8,6 @@
   .sidebar {
     width: 100%;
   }
-  .nav {
-    display: none;
-  }
-
-  .options {
-    display: none;
-  }
   .song-list {
     display: none;
   }
@@ -34,5 +27,88 @@
     padding: 8px 12px;
     height: 25px;
     text-align: center;
+  }
+
+  .shows-container {
+    overflow-x: scroll;
+    width: 100%;
+  }
+  .moreAbout,
+  .main-footer2 {
+    display: none;
+  }
+
+  .music-player {
+    display: flex;
+    position: fixed;
+    bottom: 65px;
+  }
+  .current-song {
+    width: 100%;
+  }
+  .current-singer {
+    display: inline-block;
+
+    margin: 0px;
+  }
+  .music-start {
+    display: inline-block;
+  }
+  .player-shuffle,
+  .play-back,
+  .play-next,
+  .loop,
+  .music-item,
+  .music-time,
+  .mute,
+  .que {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    border-radius: 0px;
+    padding: 0.5rem 0.5rem;
+  }
+  .nav-option {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .nav-option i {
+    font-size: 30px;
+  }
+  .nav-option a {
+    display: none;
+  }
+  .options {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0%;
+    left: 49%;
+    z-index: 1;
+    width: 100px;
+    padding: 1rem 0.75rem;
+    background-color: rgba(23, 23, 23, 255);
+  }
+  .icons {
+    display: none;
+  }
+  .lib-option img {
+    width: 25px;
+    height: 35px;
+  }
+
+  .show-all {
+    display: none;
   }
 }
