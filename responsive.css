@@ -1,0 +1,46 @@
+@media only screen and (max-width: 450px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .nav {
+    display: none;
+  }
+
+  .options {
+    display: none;
+  }
+  .song-list {
+    display: none;
+  }
+  .sticky-nav {
+    display: none;
+  }
+
+  .song-options {
+    overflow-x: scroll;
+    /* background-color: red; */
+    padding: 20px 12px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .type {
+    padding: 8px 12px;
+    height: 25px;
+    text-align: center;
+  } 
+}
+
+  /*
+  .song {
+    display: none;
+  }
+
+}
+}
