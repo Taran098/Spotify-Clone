@@ -1,9 +1,10 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 430px) {
   .main {
     display: flex;
     flex-direction: column;
     padding: 0px;
     margin: 0px;
+    overflow: hidden;
   }
   .sidebar {
     width: 100%;
@@ -14,25 +15,81 @@
   .sticky-nav {
     display: none;
   }
+  .cards .singers {
+    display: flex;
+    margin: 0px;
+    margin-top: 2%;
+  }
 
+  .singers .singerPlaylist {
+    flex-basis: calc(47%);
+    padding: 0px;
+  }
+
+  .greetings {
+    display: none;
+  }
   .song-options {
     overflow-x: scroll;
-    /* background-color: red; */
     padding: 20px 12px;
     display: flex;
     justify-content: space-around;
   }
 
+  .singerText {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .playButton {
+    display: none;
+  }
   .type {
-    padding: 8px 12px;
     height: 25px;
+    margin-left: 10px;
+    z-index: 0;
+    font-weight: 500;
+  }
+  .type:hover {
+    background-color: springgreen;
+    color: black;
+  }
+
+  .all {
+    display: inline;
+    width: 100px;
+    padding: 6px 20px;
+    border-radius: 1.5rem;
+    font-weight: 400;
+    margin-left: 40%;
+  }
+
+  .user-logos {
+    position: fixed;
+    left: 0px;
+    top: 25px;
+    width: 30px;
+    height: 20px;
+    z-index: 1;
+    display: inline;
     text-align: center;
+    font-size: 24px;
+    color: black;
+    padding: 10px 8px;
+    box-shadow: 5px 0px 5px 1px rgb(7, 7, 7);
+    background-color: rgba(23, 23, 23, 255);
+  }
+  .user-info-link {
+    background-color: rgb(228, 96, 55);
+    border-radius: 50%;
+    color: black;
+    margin-bottom: 5px;
   }
 
   .shows-container {
     overflow-x: scroll;
     width: 100%;
   }
+
   .moreAbout,
   .main-footer2 {
     display: none;
@@ -42,13 +99,13 @@
     display: flex;
     position: fixed;
     bottom: 65px;
+    background-color: rgb(56, 20, 20);
   }
   .current-song {
     width: 100%;
   }
   .current-singer {
     display: inline-block;
-
     margin: 0px;
   }
   .music-start {
@@ -61,8 +118,25 @@
   .music-item,
   .music-time,
   .mute,
-  .que {
+  .que .now-playing {
     display: none;
+  }
+  .playbar {
+    padding: 0px;
+    width: 50px;
+    margin-right: 40px;
+  }
+  .adds {
+    display: block;
+    padding: 3px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  .fa-add {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
   }
   .nav {
     display: flex;
@@ -94,11 +168,19 @@
     justify-content: space-around;
     position: fixed;
     bottom: 0%;
-    left: 49%;
+    left: 50%;
     z-index: 1;
-    width: 100px;
-    padding: 1rem 0.75rem;
+    width: 210px;
+    height: 66px;
     background-color: rgba(23, 23, 23, 255);
+  }
+  #premiums {
+    display: block;
+  }
+  #premiums img {
+    margin-top: 10px;
+    width: 40px;
+    height: 32px;
   }
   .icons {
     display: none;
@@ -107,7 +189,6 @@
     width: 25px;
     height: 35px;
   }
-
   .show-all {
     display: none;
   }
