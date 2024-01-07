@@ -311,11 +311,6 @@ body {
 .icon-user-login:hover {
   transform: scale(1.08);
 }
-@media (max-width: 1000px) {
-  .hide {
-    display: none;
-  }
-}
 
 .cards {
   margin: 0rem 0.5rem;
@@ -340,7 +335,7 @@ body {
   justify-content: space-between;
   flex-basis: calc(32% - 10px);
   margin: 6px 6px;
-  height: 65px;
+  height: 60px;
   background-color: #232323ce;
   border-radius: 5px;
   padding-right: 1%;
@@ -713,5 +708,9 @@ h2 {
   display: none;
 }
 #premiums {
+  display: none;
+}
+
+.curr-playing {
   display: none;
 }
