@@ -1,4 +1,4 @@
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 430px) {
   .main {
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
   }
 
   .singers .singerPlaylist {
-    flex-basis: calc(47%);
+    flex-basis: calc(45%);
     padding: 0px;
   }
 
@@ -50,7 +50,7 @@
     font-weight: 500;
   }
   .type:hover {
-    background-color: springgreen;
+    background-color: #1db954;
     color: black;
   }
 
@@ -60,7 +60,7 @@
     padding: 6px 20px;
     border-radius: 1.5rem;
     font-weight: 400;
-    margin-left: 40%;
+    margin-left: 200px;
   }
 
   .user-logos {
@@ -90,6 +90,14 @@
     width: 100%;
   }
 
+  /* hide scrollbars */
+  .shows-container::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .song-options::-webkit-scrollbar {
+    width: 0;
+  }
   .moreAbout,
   .main-footer2 {
     display: none;
@@ -100,6 +108,7 @@
     position: fixed;
     bottom: 65px;
     background-color: rgb(56, 20, 20);
+    height: 55px;
   }
   .current-song {
     width: 100%;
@@ -190,6 +199,27 @@
     height: 35px;
   }
   .show-all {
+    display: none;
+  }
+
+  .curr-playing {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    color: #1db954;
+  }
+  .last {
+    display: flex;
+    flex-direction: column;
+  }
+  .last .card {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .hide {
     display: none;
   }
 }
